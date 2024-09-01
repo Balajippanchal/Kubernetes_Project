@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: cloudtraineer/k8-demo-app
+        image: cloudtraineer/my-web-app
         ports:
         - containerPort: 3000
         env:
@@ -30,11 +30,11 @@ spec:
             secretKeyRef:
               name: mongo-secret
               key: mongo-password 
-        - name: DB_URL
+        - name: DB_HOST
           valueFrom:
             configMapKeyRef:
               name: mongo-config
-              key: mongo-url
+              key: db-host
 ---
 apiVersion: v1
 kind: Service
