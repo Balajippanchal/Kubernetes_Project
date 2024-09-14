@@ -30,4 +30,4 @@ The project aims to deploy a web application along with a MongoDB database in a 
 
    
 ## Project Diagram 
-![alt text](https://github.com/cloudtraineer/Installation_guide/blob/master/Kubernetes_Project/project.png?raw=true)
+![alt text](https://github.com/cloudtraineer/Kubernetes_Project/blob/master/project.png?raw=true)
